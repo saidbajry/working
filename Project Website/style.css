@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* topbar */
+.topbar {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  border-bottom: 1px solid rgba(0, 255, 0, 0.568);
+  background-color: rgb(30, 37, 51);
+}
+
+
+.topbar p{
+  font-family: 'Quicksand';
+  font-weight: 800;
+  color: white;
+  /* opacity: 70%; */
+  font-size: 14px;
+  background-color: rgb(0, 173, 0);
+  height: 25px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: 20px;
+}
+
+
+/* banner dan foto orang */
+.banner {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(48, 55, 75);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-bottom: 1px solid rgb(5, 112, 119);
+}
+
+.banner .people{
+  width: 290px;
+  height: 300px;
+  background-color: rgb(70, 78, 100);
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+.people .head {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.233);
+  border-radius: 100%;
+  margin-bottom:10px ;
+}
+.people .body{
+  width: 200px;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.233);
+  border-radius: 100px 100px 0 0;
+}
+
+
+/* navbar */
+.navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(30, 37, 51);
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+  width: 30%;
+}
+.navbar ul li a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Quicksand';
+  font-weight: 700;
+  box-shadow: 0px 2px 0 0px rgba(0, 255, 0, 0.568);
+  opacity: 60%;
+  padding: 2px 7px;
+  border-radius: 100px;
+  transition: 0.3s;
+}
+.navbar ul li a:hover {
+  box-shadow: 2px 2px 0 0px rgba(42, 255, 42, 0.568);
+  background-color: rgba(0, 255, 0, 0.3);
+  opacity: 90%;
+}
+
+
+/* content */
+.container {
+  height: 2000px;
+  background-color: rgb(48, 55, 75);
+
+  /* background-color: red; */
+}
+.experience {
+  width: 100%;
+  padding-top: 70px;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+}
+
+.exp {
+  width: 100%;
+  /* background-color: white; */
+  margin: 1px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.exp-img {
+  width: 90%;
+  height: 300px;
+  background-color: rgb(190, 190, 201);
+  border-radius: 10px;
+  box-shadow: 2px 2px 0 2px rgb(124, 124, 141);
+}
+.exp-cap{
+  width: 85%;
+  /* background-color: red; */
+  margin: 10px 0 0 0;
+  font-family: 'Quicksand';
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.726);
+}
